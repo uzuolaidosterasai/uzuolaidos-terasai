@@ -1,0 +1,135 @@
+/*
+Theme Name: Uzuolaidos Terasai Child
+Template: kadence
+Version: 1.0.0
+Description: Uzuolaidos Terasai child theme.
+*/
+
+/* Pagrindinės spalvos */
+:root {
+    --ut-blue-gray: #7C92A0;
+    --ut-graphite: #302C35;
+    --ut-light-bg: #F8F9FA;
+    --ut-beige: #F0ECE5;
+}
+
+/* Kontaktų puslapis */
+.contact-page {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 48px 24px;
+    background: var(--ut-light-bg);
+    color: var(--ut-graphite);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.contact-page *,
+.contact-page *::before,
+.contact-page *::after {
+    box-sizing: border-box;
+}
+
+.contact-page__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    align-items: start;
+    gap: 48px;
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.contact-page__content {
+    min-width: 0;
+}
+
+.contact-page__intro {
+    margin: 0 0 18px;
+}
+
+.contact-page__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0 0 24px;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-page__links li {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page__links a {
+    color: var(--ut-graphite);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.contact-page__links a:hover {
+    color: var(--ut-blue-gray);
+}
+
+.contact-page__details {
+    margin-top: 26px;
+}
+
+.contact-page__details p {
+    margin: 0;
+}
+
+.contact-page__button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 22px;
+    border-radius: 2px;
+    background: var(--ut-graphite);
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.contact-page__button:hover {
+    background: var(--ut-blue-gray);
+    color: #FFFFFF;
+}
+
+.contact-page__photo {
+    width: 100%;
+    max-width: 220px;
+    margin: 0;
+    justify-self: center;
+}
+
+.contact-page__photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 110px;
+}
+
+/* Telefonas */
+@media (max-width: 600px) {
+    .contact-page {
+        padding: 32px 20px;
+    }
+
+    .contact-page__inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .contact-page__photo {
+        grid-row: 1;
+        max-width: 180px;
+    }
+
+    .contact-page__content {
+        grid-row: 2;
+    }
+}
