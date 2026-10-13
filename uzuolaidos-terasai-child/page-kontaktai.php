@@ -23,28 +23,28 @@ get_header();
 
                     <li>
                         <a href="mailto:info@uzuolaidosterasai.lt">
-                            ✉ &nbsp; info@uzuolaidosterasai.lt
+                            info@uzuolaidosterasai.lt
                         </a>
                     </li>
 
                     <li>
                         <a href="tel:+37067285777">
-                            ☎ &nbsp; +37067285777
+                            +370 672 85777
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://m.me/uzuolaidosterasai"
+                        <a href="https://www.facebook.com/uzuolaidosterasai"
                            target="_blank"
-                           rel="noopener noreferrer">
+                           rel="noopener">
                             Facebook žinutė
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://ig.me/m/uzuolaidos_terasai"
+                        <a href="https://www.instagram.com/uzuolaidos_terasai/"
                            target="_blank"
-                           rel="noopener noreferrer">
+                           rel="noopener">
                             Instagram žinutė
                         </a>
                     </li>
@@ -52,7 +52,7 @@ get_header();
                     <li>
                         <a href="https://wa.me/37067285777"
                            target="_blank"
-                           rel="noopener noreferrer">
+                           rel="noopener">
                             WhatsApp
                         </a>
                     </li>
@@ -66,7 +66,7 @@ get_header();
                     <li>
                         <a href="https://t.me/+37067285777"
                            target="_blank"
-                           rel="noopener noreferrer">
+                           rel="noopener">
                             Telegram
                         </a>
                     </li>
@@ -74,7 +74,7 @@ get_header();
                     <li>
                         <a href="https://signal.me/#p/+37067285777"
                            target="_blank"
-                           rel="noopener noreferrer">
+                           rel="noopener">
                             Signal
                         </a>
                     </li>
@@ -87,9 +87,13 @@ get_header();
                         Dirbu pagal individualios veiklos pažymą Nr.1491588
                     </p>
 
-                    <p>Lina Aužbikavičienė</p>
+                    <p>
+                        Lina Aužbikavičienė
+                    </p>
 
-                    <p>Pabalių g. 72B, Šiauliai</p>
+                    <p>
+                        Pabalių g. 72B, Šiauliai
+                    </p>
 
                     <a class="contact-page__button"
                        href="https://www.uzuolaidosterasai.lt/el-parduotuve/">
@@ -111,6 +115,8 @@ get_header();
 
         </div>
     </section>
+
+    <?php echo do_shortcode('[Sassy_Social_Share]'); ?>
 
 </main>
 
